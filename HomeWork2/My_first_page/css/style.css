@@ -71,7 +71,15 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 30px;
+    /* padding: 30px;
+    height: 25px; */
+    background: hsl(34, 89%, 63%);
+}
+
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .header_inner {
@@ -208,9 +216,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cinnabon_item {
-    
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex; 
+    justify-content: space-between;
     
 }
 
@@ -220,5 +227,33 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Josefin Slab', serif;
     text-align: left;
+    font-size: 23px;
 }
 
+/*contact*/
+.contact {
+    padding: 80px 0;
+    color: black;
+    text-align: center;
+    font-family: 'Josefin Slab', serif; 
+}
+
+.contact_city {
+    text-align: left;
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: hsl(34, 89%, 63%);
+    border:hwb(32 19% 13%)
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 0 hsl(34, 75%, 58%);
+}   
