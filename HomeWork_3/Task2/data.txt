@@ -1,0 +1,20 @@
+create table Students(
+
+id integer not null,
+
+name text not null,
+
+age integer not null,
+
+address text not null
+);
+
+insert into Students values (1, 'Kirill', 27, 'Moskow');
+insert into Students values(2, 'Katya', 30, 'Bashkiria');
+insert into Students values(3, 'Vladimyr', 27, 'Minsk');
+insert into Students values(4, 'Rishat', 36, 'Novosibirsk');
+insert into Students values(5, 'Aleksandra', 36, 'Omsk');
+insert into Students values(6, 'Eugene', 35, 'Moskow');
+insert into Students values(7, 'Svetlana', 28, 'St Peterburg');
+
+select * from Students;
