@@ -1,0 +1,31 @@
+{"Студенты": [
+  {"name":"Kirill",
+   "age":27,
+   "city":"Moskow"
+  },
+  {"name":"Katya",
+   "age":30,
+   "city":"Bashkiria"
+  },
+  {"name":"Vladimyr",
+   "age":27,
+   "city":"Minsk"
+  },
+  {"name":"Rishat",
+   "age":36,
+   "city":"Novosibirsk"
+  },
+  {"name":"Aleksandra",
+   "age":36,
+   "city":"Omsk"
+  },
+  {"name":"Eugene",
+   "age":35,
+   "city":"Moskow"
+  },
+  {"name":"Svetlana",
+   "age":28,
+   "city":"St Peterburg"
+  }
+  ]
+}
